@@ -159,22 +159,25 @@ main{
 
     .item-4{
         grid-area: formulario;
+        text-align: center;
          /* position: relative; */
         width:100%;
-        height: 30%; 
+        height: 100%; 
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
         padding: 2% 0 2% 0;
+        margin: 2em 1em;
 
        #enviar{
+            width:100%;
             border: 1px solid var(--textColor);
             border-radius: 5px;
             text-decoration: none;
             color:var(--textColor);
             padding: 15px 20px;
-            margin: 0 1em;
+            margin: 2em 1em;
             background-color: var(--bgbtn);
             border: 1px solid var(--bgbtn);
        }
