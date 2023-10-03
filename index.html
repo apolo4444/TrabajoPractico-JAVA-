@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Integrador</title>
     <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="shortcut icon" href="./Assets/Images/trnsmision.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./Assets/Images/codoacodo.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -44,7 +44,7 @@
     </main>
 
     <div class="grid-content">
-        <div class="item-1">
+        <div id="oradores" class="item-1">
             <div class="title">
                 <h4>Conoce a los</h4>
                 <h2>ORADORES</h2>
@@ -75,8 +75,24 @@
                         </div>
             </div>
         </div>
-        <div class="item-2">
-            <img src="./Assets/Images/honolulu.jpg" alt="Imagen de La Costanera">
+        <div id="lugar" class="item-2">
+            <div class="slider">
+                <ul class="slider__pic">
+                    <li class="slider__images">
+                        <img src="./Assets/Images/honolulu.jpg" alt="Imagen de La Costanera">
+                    </li class="slider__images">
+                    <li class="slider__images">
+                        <img src="./Assets/Images/ba1.jpg" alt="Imagen de La Costanera">
+                    </li class="slider__images">
+                    <li class="slider__images">
+                        <img src="./Assets/Images/ba2.jpg" alt="Imagen de La Costanera">
+                    </li class="slider__images">
+                    <li class="slider__images">
+                        <img src="./Assets/Images/ba3.jpg" alt="Imagen de La Costanera">
+                    </li class="slider__images">
+                </ul>
+            </div>
+            <!-- <img src="./Assets/Images/honolulu.jpg" alt="Imagen de La Costanera"> -->
         </div>
         <div class="item-3">
             <h1>BS AS - Octubre</h1>
@@ -90,18 +106,20 @@
             <a href="#conviertete">Conoce Mas</a>
             <!--<a class="btn-color" href="./Pages/tickets.html"> Comprar tickets</a> -->
         </div>
-        <div class="item-4">
+        <div id="conviertete" class="item-4">
             <div class="title">
                 <h4>Conviertete en un </h4>
                 <h2>ORADOR</h2>
                 <h6>Anotate como orador para dar una charla ignite. Cuentanos de que quieres hablar!</h6>
             </div>
             <form action="">
-                <input type="text" placeholder="Nombre" width="250px" name="" id="">
-                <input type="text" placeholder="Apellido" width="250px" name="" id="">
+                <input type="text" placeholder="Nombre" size="35px" name="" id="">
+                <input type="text" placeholder="Apellido" size="35px" name="" id="">
                 <br>
-                <input type="text" placeholder="Sobre que quieres hablar" width="500px" height="250px" name="" id="">
+                <!-- <input type="text" placeholder="Sobre que quieres hablar" width="250px" height="500px" name="" id=""> -->
+                <input type="text" placeholder="Sobre que quieres hablar" size="70px" height="500px" minlenght="10px" maxlenght="50px" id="user">
                 <br>
+                <h6>Recuerda incluir un titulo para tu charla</h6>
                 <input id="enviar" type="submit" value="Enviar" width="500px">
             </form>
         </div>
