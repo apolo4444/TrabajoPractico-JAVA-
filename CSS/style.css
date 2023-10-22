@@ -98,6 +98,13 @@ main{
     }   
 }
 
+.border{
+    border: 10% solid blue;
+    text-align: center;
+    padding: 1%;
+    margin: 5%;
+}
+
 .grid-content{
     display: grid;
     grid-template-areas: "orador orador" "paisaje descripcion" "formulario formulario";
