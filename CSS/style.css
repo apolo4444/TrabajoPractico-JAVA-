@@ -98,12 +98,6 @@ main{
     }   
 }
 
-.border{
-    border: 10% solid blue;
-    text-align: center;
-    padding: 1%;
-    margin: 5%;
-}
 
 .grid-content{
     display: grid;
@@ -197,6 +191,7 @@ main{
        }
     }
 }
+
 
 footer{
     background-color:var(--bgfoot) ;

@@ -12,6 +12,7 @@
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style2.css">
     <link rel="shortcut icon" href="../Assets/Images/codoacodo.png" type="image/x-icon">
 </head>
 
@@ -85,28 +86,31 @@
             <h2>VALOR DEL TICKET $200</h2>
             
         </div>
-        <form action="">
-            <input type="text" id="nombre" placeholder="Nombre" required>
+        <form  action="">
+            <input type="text" id="nombre" placeholder="Nombre" size="32px"  required>
+            <input type="text" id="apellido" placeholder="Apellido" size="32px" required>
             <br>
-            <input type="text" id="apellido" placeholder="Apellido" required>
+            <input type="text" id="mail" placeholder="@hotmail.com" size="70px" required>
             <br>
-            <input type="text" id="mail" placeholder="@hotmail.com" required>
+            <label for="cantidad">Cantidad</label>
             <br>
             <input type="text" id="cantidad" placeholder="Cantidad" required>
             <br>
             <label for="categoria">Categoria</label>
+            <br>
             <!-- <input type="text" id="categoria" placeholder="Categoria" required> -->
-            <section id="categoria">
-                    <option value="0">Seleccionar</option>
+            <select name="Categoria" id="categoria">
+                    <option value="0" selected>Seleccionar</option>
                     <option value="1">Estudiante</option>
                     <option value="2">Traineer</option>
                     <option value="3">Junior</option>
     
-            </section>
+            </select>
             <br>
-            <button class="boton" id="btnClear" type="reset">Borrar</button>
-            <button class="boton" id="btnResumen" type="button">Resumen</button>
+            <button class="boton botonDecorado" id="btnClear" type="reset">Borrar</button>
+            <button class="boton botonDecorado" id="btnResumen" type="button">Resumen</button>
         </form>
+        
         <h2 id="totalPagar"></h2>
     </div>
 

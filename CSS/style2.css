@@ -1,0 +1,19 @@
+.botonDecorado{
+    width:50%;
+    border: 1px solid var(--textColor);
+    border-radius: 5px;
+    text-decoration: none;
+    color:var(--textColor);
+    padding: 15px 20px;
+    /*margin: 2em 1em;*/
+    background-color: var(--bgbtn);
+    border: 1px solid var(--bgbtn);
+}
+
+
+.border{
+    border: 10px solid blue;
+    text-align: center;
+    padding: 1%;
+    margin: 5% 0 0 0;
+}
