@@ -91,27 +91,41 @@
             <input type="text" id="apellido" placeholder="Apellido" size="32px" required>
             <br>
             <input type="text" id="mail" placeholder="@hotmail.com" size="70px" required>
-            <br>
-            <label for="cantidad">Cantidad</label>
-            <br>
+           <div>
+            <div>
+              <label for="cantidad">Cantidad</label>
+           
             <input type="text" id="cantidad" placeholder="Cantidad" required>
+            </div>
+            
+            <div>
+              <label for="categoria">Categoria</label>
+           
+              <!-- <input type="text" id="categoria" placeholder="Categoria" required> -->
+              <select name="Categoria" id="categoria">
+                      <option value="0" selected>Seleccionar</option>
+                      <option value="1">Estudiante</option>
+                      <option value="2">Traineer</option>
+                      <option value="3">Junior</option>
+      
+              </select>
+            </div>
+
+           </div>
+
+           
+           
             <br>
-            <label for="categoria">Categoria</label>
+            <h4 class="monto" id="totalPagar">$Total a pagar </h4>
             <br>
-            <!-- <input type="text" id="categoria" placeholder="Categoria" required> -->
-            <select name="Categoria" id="categoria">
-                    <option value="0" selected>Seleccionar</option>
-                    <option value="1">Estudiante</option>
-                    <option value="2">Traineer</option>
-                    <option value="3">Junior</option>
-    
-            </select>
-            <br>
-            <button class="boton botonDecorado" id="btnClear" type="reset">Borrar</button>
-            <button class="boton botonDecorado" id="btnResumen" type="button">Resumen</button>
+            <div class="enLinea">
+              <button class="boton botonDecorado" id="btnClear" type="reset">Borrar</button>
+              <button class="boton botonDecorado" id="btnResumen" type="button">Resumen</button>
+            </div>
+            
         </form>
         
-        <h2 id="totalPagar"></h2>
+       
     </div>
 
 </div>

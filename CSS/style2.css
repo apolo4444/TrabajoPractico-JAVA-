@@ -1,11 +1,18 @@
+.enLinea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .botonDecorado{
     width:50%;
     border: 1px solid var(--textColor);
     border-radius: 5px;
     text-decoration: none;
     color:var(--textColor);
-    padding: 15px 20px;
-    /*margin: 2em 1em;*/
+    padding: 10px 10px;
+    margin: 2em 1em;
     background-color: var(--bgbtn);
     border: 1px solid var(--bgbtn);
 }
@@ -16,4 +23,15 @@
     text-align: center;
     padding: 1%;
     margin: 5% 0 0 0;
+}
+
+.monto{
+    width: 100%;
+    height: auto;
+    text-align:left;
+    background-color: aquamarine;
+    padding: 1%;
+    margin: 5% 0 0 0;
+    color:blue; 
+
 }
