@@ -73,8 +73,8 @@ function focusIfEmpty(field, fieldProperties) {
 }
 
 function validateWithRegex(field, fieldProperties){
-   alert(field.value)
-   alert(fieldProperties.regexPattern)
+   //alert(field.value)
+   //alert(fieldProperties.regexPattern)
    if (!fieldProperties.regexPattern.test(field.value)){
       alert("Error de validacion en el campo: " + fieldProperties.fieldName)
       field.classList.add("is-invalid");
