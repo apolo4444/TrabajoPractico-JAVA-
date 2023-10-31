@@ -47,7 +47,7 @@ function calcularPrecioTicket() {
       } else {
          var cant = document.getElementById("cantidad").value
          var desc = categories.find(f => f.index == categoria).desc;
-         document.getElementById("totalPagar").innerText = (defaultTicketPrice * cant)*(1 - desc);
+         document.getElementById("totalPagar").innerText = "$Total a pagar "+ (defaultTicketPrice * cant)*(1 - desc);
       }
    } 
    // else {
